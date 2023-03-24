@@ -1,0 +1,53 @@
+1 - Ao final do processamento, o valor da variável soma será 91.
+
+3) Descubra a lógica e complete o próximo elemento:
+
+
+
+a) 1, 3, 5, 7, ___
+r:9
+
+b) 2, 4, 8, 16, 32, 64, ____
+r:128
+
+c) 0, 1, 4, 9, 16, 25, 36, ____
+r:49
+
+d) 4, 16, 36, 64, ____
+r: 100
+
+e) 1, 1, 2, 3, 5, 8, ____
+r:13
+
+f) 2,10, 12, 16, 17, 18, 19, ____
+r:200
+
+4 - r: o carro e o caminhão se encontram a 60,9km de distância de Ribeirão Preto,
+logo, eles estão à mesma distância de RP.
+
+Utilizando RP como ponto de referência, é possível calcular a equação horária
+(equação que fornece a velocidade do corpo em um instante qualquer)
+
+x_carro = v1.t
+
+Como o caminhão está inicialmente a 100km de distância do ponto de referência,
+sua equação horária será dada por: 
+x_caminhão = 100 - v2.t
+
+Para calcular o tempo de viágem do caminhão, desconsiderando os 10 minutos de pausa pelos pedágios
+dividiremos a distância pela velocidade média:
+
+t = 100 km/80km/h = 1,25h
+
+adicionando os 10 minutos, que convetidos para horas equivalem a 0,17h, calcularemos a velocidade média
+considerando as paradas
+
+v = 100km/142h = 70,6km/h
+
+após isso, igualaremos as equações horárias e encontraremos o local onde os veículos se cruzam:
+
+x/v1 = x - 100/-v2
+
+v1.100/v1+v2 = 110 .100/110 + 70,6 
+
+x = 60,9 km 
